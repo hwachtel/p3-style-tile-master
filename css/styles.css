@@ -1,0 +1,103 @@
+body{
+	background:url("../img/upfeathers.png");
+}
+
+.container {
+	margin-top: 2em;
+	border-radius: 1em;
+	background: #434f4e;
+	padding: 1em;
+}
+
+em{
+	color:#FFF8E3;
+	font-weight: bold
+}
+
+h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 4em;
+	color:#D9CB9E;
+}
+h2,h3{
+	font-family: 'Hammersmith One', sans-serif;
+	color:#DC3522;
+}
+
+p{
+	font-family: 'Oswald', sans-serif;
+	color:#1E1E20;
+	font-size: 3em
+	font-weight:bold;
+
+}
+
+li{
+	font-size:9px;
+}
+
+/* Set Your Own Margin & Padding */
+h1,h2, h3, p,em,section {
+	margin: 2px 38px;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 20px;
+}
+
+img{
+	width:50%;
+	height:50%;
+
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+
+.color-1,
+.pattern-1{
+	margin-left: 38px;
+}
+
+.color-1{
+	background:#DC3522; 
+}
+.color-2{
+	background: #D9CB9E;
+}
+.color-3{
+	background: #374140;
+}
+.color-4{
+	background:#2A2C2B;
+}
+.color-5{
+	background: #2A2C2;
+}
+
+.pattern-1{
+	background: url("../img/upfeathers.png") no-repeat;
+}
+.pattern-2{
+	background: url("../img/crossword.fw.png") no-repeat;
+}
+.pattern-3{
+	background: url("../img/halftone.zip.png")no-repeat;
+}
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
